@@ -1,0 +1,14 @@
+PSTOPIC
+    about_AsgGroupJDEdwards-Selenium
+
+
+SHORT DESCRIPTION
+    AsgGroupJDEdwards-Selenium assists in performing JD Edwards tasks using PowerShell functions.
+
+
+LONG DESCRIPTION
+    AsgGroupJDEdwards-Selenium assists in performing JD Edwards tasks within PowerShell, with the help of advanced functions.
+
+
+DETAILED DESCRIPTION
+    This module helps in performing JD Edwards tasks using PowerShell, such as connecting to the JD Edwards EnterpriseOne Server Manager and get the status of servers.
