@@ -1,21 +1,22 @@
-![Build status](https://ci.appveyor.com/api/projects/status/github/ASG-Github-Admin/AsgGroupCantara?svg=true)
+![Build status](https://ci.appveyor.com/api/projects/status/github/ASG-Github-Admin/AsgGroupJDEdwards-Selenium?svg=true)
 ---
 
 
 ---
 
-<h1 id="asggroupcantara">AsgGroupCantara</h1>
-<p>This is a generic module for performing basic tasks in PowerShell 5.1.</p>
+<h1 id="asggroupjdedwards-selenium">AsgGroupJDEdwards-Selenium</h1>
+<p>This is a module for performing web related administratie tasks on JD Edwards using Selenium in PowerShell 5.1.</p>
 <h2 id="getting-started">Getting Started</h2>
 <h3 id="prerequisites">Prerequisites</h3>
-<p>You will need PowerShell 5.1.</p>
+<p>You will need PowerShell 5.1, and the module Selenium version 2.3.1</p>
 <h2 id="deployment">Deployment</h2>
-<p>Within PowerShell run: <strong>Install-Module -Name AsgGroupCantara</strong></p>
+<p>Within PowerShell run: <strong>Install-Module -Name AsgGroupJDEdwards-Selenium</strong></p>
 <h2 id="built-with">Built With</h2>
 <ul>
 <li>README mark down file generated with <a href="https://stackedit.io/">StackEdit</a> and based on this <a href="https://gist.github.com/PurpleBooth/109311bb0361f32d87a2">template</a> by Billie Thompson, a.k.a. <a href="https://gist.github.com/PurpleBooth">PurpleBooth</a></li>
 <li>Microsoft Visual Studio Code - <a href="https://code.visualstudio.com/">code.visualstudio.com</a></li>
 <li>PowerShell 5.1</li>
+<li>Selenium 2.3.1</li>
 </ul>
 <h2 id="versioning">Versioning</h2>
 <p>Semantic versioning employed - <a href="https://semver.org/">Semantic Versioning 2.0.0</a></p>
