@@ -97,7 +97,9 @@ function Test-JDEMobileApprovalsSignInWebPage {
                 )
             )
         }
+
+        return $true
     }
     catch { $PSCmdlet.ThrowTerminatingError($PSItem) }
-    finally { if ($Driver) { Stop-SeDriver -Driver $Driver } } # Dispose of the web driver
+    finally { if ($Driver) { $Driver.Dispose() } } # Dispose of the web driver
 }
