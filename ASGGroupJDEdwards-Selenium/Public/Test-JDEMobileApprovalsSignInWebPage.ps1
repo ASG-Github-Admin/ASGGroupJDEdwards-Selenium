@@ -16,7 +16,7 @@ function Test-JDEMobileApprovalsSignInWebPage {
     .INPUTS
     System.String.
     .OUTPUTS
-    None
+    System.Bool or None.
     #>
 
     [CmdLetBinding()]
