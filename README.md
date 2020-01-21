@@ -5,7 +5,7 @@
 ---
 
 <h1 id="asggroupjdedwards-selenium">AsgGroupJDEdwards-Selenium</h1>
-<p>This is a module for performing web related administratie tasks on JD Edwards using Selenium in PowerShell 5.1.</p>
+<p>This is a module for performing web related administrative tasks on JD Edwards using Selenium in PowerShell 5.1.</p>
 <h2 id="getting-started">Getting Started</h2>
 <h3 id="prerequisites">Prerequisites</h3>
 <p>You will need PowerShell 5.1, and the module Selenium version 2.3.1</p>
