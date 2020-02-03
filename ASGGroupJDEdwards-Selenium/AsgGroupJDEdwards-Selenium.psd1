@@ -12,7 +12,7 @@
 RootModule = 'AsgGroupJDEdwards-Selenium.psm1'
 
 # Version number of this module.
-ModuleVersion = '0.1.0'
+ModuleVersion = '0.1.1'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -69,7 +69,7 @@ RequiredModules = @{ModuleName = 'Selenium'; ModuleVersion = '2.3.1'; }
 # NestedModules = @()
 
 # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
-FunctionsToExport = 'Connect-JDEdwardsEnterpriseOneServerManager', 'Disconnect-JDEdwardsEnterpriseOneServerManager', 'Get-JDEBatchJobProcesses', 'Get-JDEHTMLServerUserSessionCount', 'Get-JDEServers', 'Get-JDEWebServerUserSessions', 'Test-JDESignInWebPage', 'Test-JDEMobileApprovalsSignInWebPage'
+FunctionsToExport = 'Connect-JDEdwardsEnterpriseOneServerManager', 'Disconnect-JDEdwardsEnterpriseOneServerManager', 'Get-JDEBatchJobProcesses', 'Get-JDEHTMLServerUserSessionCount', 'Get-JDEServers', 'Get-JDEWebServerUserSessions', 'Test-JDESignInWebPage', 'Test-JDEMobileApprovalsSignInWebPage', 'Get-JDEServerManagerSessions'
 
 # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
 CmdletsToExport = @()
