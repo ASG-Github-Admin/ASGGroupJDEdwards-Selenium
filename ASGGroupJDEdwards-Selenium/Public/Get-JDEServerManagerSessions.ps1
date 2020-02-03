@@ -55,16 +55,16 @@ function Get-JDEServerManagerSessions {
             $URL = [uri] $ManagerSession.Url # Parse the URL property from the web driver
             
             # Build the manager server URL
-            "$($URL.Scheme)://$($URL.Authority)/manage/target" +
+            $ServerManagerSessionURL = "$($URL.Scheme)://$($URL.Authority)/manage/target" +
             "?action=sessions" +
             "&hostName=$ManagerServerName" +
             "&instanceName=home" +
             "&targetType=mgmtconsole" +
             "&jdeHome=D%3A%5Cjde_home%5CSCFMC"
 
-            VerifyURL -URL $SvrHomeURL # Check that the web page is available
+            VerifyURL -URL $ServerManagerSessionURL # Check that the web page is available
 
-            GoToWebPage -Driver $ManagerSession -Url $SvrHomeURL # Go to the web page
+            GoToWebPage -Driver $ManagerSession -Url $ServerManagerSessionURL # Go to the web page
 
             # Check that the web page loaded
             CheckWebPageLoaded -Driver $ManagerSession -ElementName "userSessionTable" -ElementType Id
@@ -92,7 +92,7 @@ function Get-JDEServerManagerSessions {
                     ([string] $Data[0].Text -like $Username) -and
                     ([string] $Data[1].Text -like $RemoteHost) -and
                     ([datetime] $Data[2].Text -gt $LogonTime) -and
-                    ([int32] $Data[3].Text -gt $RemoteHost)
+                    ([int32] $Data[3].Text -gt $IdleSeconds)
                 ) {
                 
                     [pscustomobject]@{
